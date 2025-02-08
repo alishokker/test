@@ -1,6 +1,8 @@
-def main():
-    print("Hello from example!")
+import numpy as np
 
 
-if __name__ == "__main__":
-    main()
+mat = np.zeros((2,2))
+print(mat)
+
+mat[0,0]= 1
+print(mat)
